@@ -1,0 +1,12 @@
+/* สไตล์หลักของหน้าเกม: จัดฟอนต์และยืดตัวคั่นให้ Canvas อยู่กลางจอ */
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* พื้นหลังของกระดานเกม ใช้ภาพเดียวกับฉากในเกมจริง */
+#board {
+    /* หากต้องการทดสอบสีพื้นฐาน สามารถเปิดคอมเม้นบรรทัดด้านล่างแทนการใช้ภาพ */
+    /* background-color: skyblue; */
+    background-image: url("./assets/images/flappybird-bg.png");
+}
